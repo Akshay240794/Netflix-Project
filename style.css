@@ -1,0 +1,50 @@
+
+body{
+    background-color: #090908;
+    font-family:sans-serif
+}
+.header-logo{
+    height: 100px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+
+}
+.flex-conatiner-section1-heading{
+    color: white;
+    padding-bottom: 15px;
+    font-size: 50px;
+}
+.flex-conatiner-profile{
+    width: 80%;
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+    /* background-color: red; */
+    justify-content: space-evenly;
+}
+.individual-profile-image{
+    height: 170px;
+    width: 170px;
+}
+.individual-profile-name{
+    color: rgb(155, 148, 148)
+}
+.flex-conatiner-section2{
+    padding-top: 50px;
+}
+.flex-continer-section2-button{
+    background-color: #090908;
+    color: rgb(155, 148, 148);
+    padding: 10px;
+    border: 1px solid rgb(155, 148, 148);
+    font-size: 18px;
+}
+button:hover{
+    background-color: red;
+
+}
